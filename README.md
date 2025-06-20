@@ -25,3 +25,7 @@ $$
 \end{bmatrix}  \color{black}.
 \normalsize
 $$
+
+By linearizing the system around its equilibrium point, we observe that it becomes fully decoupled. To analyze the system dynamics, we apply the semigroup framework and use the spectral decomposition method—a classical yet powerful tool—to transform the PDE operator into an infinite set of ordinary differential equations (ODEs). This reformulation simplifies the control design process. A feedback control law is then developed using the Linear Quadratic Regulator (LQR) approach. To assess stability, a suitable Lyapunov functional is constructed handling the spillover effect, ensuring the system's robust performance over time. 
+
+
