@@ -5,7 +5,7 @@ This Project is part of designing a controller for the Viscous Moore-Greitzer Mo
 </script>
 $$
 \small
-\partt \begin{bmatrix}
+\frac{\partial}{\partial t} \begin{bmatrix}
     g\\\Phi\\\Psi
 \end{bmatrix}= 
 \begin{bmatrix}
