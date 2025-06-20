@@ -1,8 +1,5 @@
 # Jet-Enginee
 This Project is part of designing a controller for the Viscous Moore-Greitzer Model, a model that captures the dynamical behavior of a compression system.The model consists of a coupled system comprising one PDE, which describes the behavior of disturbances in the inlet region of compression systems, and two ODEs, which represent the coupling between these disturbances and the mean flow.
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 $$
 \small
