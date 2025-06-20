@@ -6,7 +6,9 @@ This Project is part of designing a controller for the Viscous Moore-Greitzer Mo
 $$
 \small
 \frac{\partial}{\partial t} \begin{bmatrix}
-    g\\ \Phi\\ \Psi
+    g\\
+    \Phi\\
+    \Psi
 \end{bmatrix}= 
 \begin{bmatrix}
     K^{-1} \left( \frac{\nu}{2} \frac{\partial^2}{\partial \theta^2} - \frac{1}{2}\frac{\partial}{\partial \theta} \right) & 0 & 0 \\
@@ -14,7 +16,9 @@ $$
     0 & 0 & 0
 \end{bmatrix}
 \begin{bmatrix}
-    g\\\Phi\\\Psi
+    g\\
+    \Phi\\
+    \Psi
 \end{bmatrix}+
 \begin{bmatrix}
     \alpha K^{-1} \left( \psi_c(\Phi+g)-\bar{\psi}_c(\Phi,g)\right) \\
