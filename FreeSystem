@@ -45,7 +45,6 @@ number = number_of_unstable_modes(lam, k)
 
 #Control takes place
 
-
 # Time indices to plot
 snapshots = [0, steps // 3, 2 * steps // 3, steps]
 times = [i * dt for i in snapshots]
